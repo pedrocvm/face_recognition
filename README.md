@@ -189,7 +189,7 @@ Made with ❤️ by Pedro Matos 👋🏽 Get in touch!
 
 [![Linkedin Badge](https://img.shields.io/badge/-Pedro_Matos-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/pedrocvm/)](https://www.linkedin.com/in/pedrocvm/)
 [![Github Badge](https://img.shields.io/badge/-pedrocvm-000?style=flat-square&logo=Github&logoColor=white&link=https://github.com/pedrocvm)](https://github.com/pedrocvm)
-[![Gmail Badge](https://img.shields.io/badge/-pedrocvm3@gmail.com-FA5C5C?style=flat-square&logo=gmail&logoColor=white&link=mailto:pedrocvm3@gmail.com)](mailto:pedrocvm3@gmail.com)
+[![Gmail Badge](https://img.shields.io/badge/-pedrocvm1988@gmail.com-FA5C5C?style=flat-square&logo=gmail&logoColor=white&link=mailto:pedrocvm1988@gmail.com)](mailto:pedrocvm1988@gmail.com)
 
 </div>
 

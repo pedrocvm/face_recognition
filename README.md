@@ -94,25 +94,33 @@ Project started on 30/11/2022.
 
 ---
 ### :memo: **Front-End Roadmap**
+
 <details>
+	
 <summary>Click to show</summary>
+	
 - [x] Create Front-End Project using VueJS.
 - [x] inserted Plop for automatic component generation.
 - [x] Configure Prettier and ESLint.
 - [x] Create structure Components (Header, Footer and Container).
 - [x] Create reusable generic Components (TextField, Button and Title).
 - [x] Integration with Back-End.
+	
 </details>
 
 ---
 ### :memo: **Back-End Roadmap**
+
 <details>
+	
 <summary>Click to show</summary>
+	
 - [x] Create Back-End Project using NestJS.
 - [x] Create User Service.
 - [x] Create Auth Service with PassportJS ans JWT.
 - [x] Create Upload Service with Serverless Integration.
 - [x] Create AWS Lambda with Serverless Integration using AWS Rekognize.
+	
 </details>
 
 ---

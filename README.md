@@ -142,7 +142,7 @@ $ cd face_recognition
 # Running with Docker
 $ docker-compose up -d
 
-or locally
+# or locally
 
 # Install the Dependencies
 $ yarn
@@ -152,6 +152,12 @@ $ yarn start:dev
 
 # Run the Front-End App
 $ yarn serve
+
+# It is not necessary to run the Lambda image-analysis as it is already deployed on AWS, but if you want to run it locally:
+$ npm i -g serverless
+$ sls offline start
+
+# After that, you need to update the environment variable AWS_ANALYSE_URL to http://localhost:4000/analyse
 ```
 
 ---

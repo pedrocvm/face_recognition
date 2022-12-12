@@ -23,7 +23,7 @@
 <h4 align="center" style="font-size: 16px; font-weight: 600">Login Page</h4>
 <p align="center">
 	<kbd>
-		<img width="350" style="border-radius: 5px" alt="App Demo - Login Page" src="https://i.ibb.co/C9rRkL9/image.png">
+		<img width="500" style="border-radius: 5px" alt="App Demo - Login Page" src="https://i.ibb.co/C9rRkL9/image.png">
 	</kbd>
 </p>
 <br/>
@@ -31,7 +31,7 @@
 <h4 align="center" style="font-size: 16px; font-weight: 600">Register Page</h4>
 <p align="center">
 	<kbd>
-		<img width="350" style="border-radius: 5px" alt="App Demo - Register Page" src="https://i.ibb.co/RQDrGvD/image.png">
+		<img width="500" style="border-radius: 5px" alt="App Demo - Register Page" src="https://i.ibb.co/RQDrGvD/image.png">
 	</kbd>
 </p>
 
@@ -40,7 +40,7 @@
 <p>Here Admin can view and delete users</p>
 <p align="center">
 	<kbd>
-		<img width="350" style="border-radius: 5px" alt="App Demo - Admin Dashboard" src="https://i.ibb.co/VS14mRn/image.png">
+		<img width="500" style="border-radius: 5px" alt="App Demo - Admin Dashboard" src="https://i.ibb.co/VS14mRn/image.png">
 	</kbd>
 </p>
 <br/>
@@ -50,7 +50,7 @@
 <p>Here the User will upload the image he wants to find faces</p>
 <p align="center">
 	<kbd>
-		<img width="350" style="border-radius: 5px" alt="App Demo - User Dashboard" src="https://i.ibb.co/4tgXgr4/image.png">
+		<img width="500" style="border-radius: 5px" alt="App Demo - User Dashboard" src="https://i.ibb.co/4tgXgr4/image.png">
 	</kbd>
 </p>
 <br/>
@@ -62,7 +62,7 @@
 <h4 align="center" style="font-size: 16px; font-weight: 600">Countdown for the next upload</h4>
 <p align="center">
 	<kbd>
-		<img width="350" style="border-radius: 5px" alt="App Demo - Countdown" src="https://i.ibb.co/QKCVXLn/image.png">
+		<img width="500" style="border-radius: 5px" alt="App Demo - Countdown" src="https://i.ibb.co/QKCVXLn/image.png">
 	</kbd>
 </p>
 <br/>
@@ -74,7 +74,7 @@
 <h4 align="center" style="font-size: 16px; font-weight: 600">Result</h4>
 <p align="center">
 	<kbd>
-		<img width="350" style="border-radius: 5px" alt="App Demo - Result" src="https://i.ibb.co/BGJb5rp/weather-app-8.png">
+		<img width="500" style="border-radius: 5px" alt="App Demo - Result" src="https://i.ibb.co/1stXWvq/image.png">
 	</kbd>
 </p>
 <br/>
@@ -84,7 +84,7 @@
 <br/>
 <p align="center">
 	<kbd>
-		<img width="350" style="border-radius: 5px" alt="App Demo - Query 2" src="https://i.ibb.co/9ZwNr8z/image.png">
+		<img width="500" style="border-radius: 5px" alt="App Demo - Table" src="https://i.ibb.co/9ZwNr8z/image.png">
 	</kbd>
 </p>
 

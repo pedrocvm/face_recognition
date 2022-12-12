@@ -44,7 +44,6 @@
 	</kbd>
 </p>
 <br/>
-<br/>
 
 <br/>
 <h4 align="center" style="font-size: 16px; font-weight: 600">User Dashboard</h4>

@@ -37,7 +37,7 @@
 
 <br/>
 <h4 align="center" style="font-size: 16px; font-weight: 600">Admin Dashboard wit ha list of users</h4>
-<p>Here the User will upload the image he wants to find faces</p>
+<p>Here Admin can view and delete users</p>
 <p align="center">
 	<kbd>
 		<img width="350" style="border-radius: 5px" alt="App Demo - Admin Dashboard" src="https://i.ibb.co/VS14mRn/image.png">

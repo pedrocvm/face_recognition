@@ -1,0 +1,112 @@
+@import '@/sass/master';
+
+.buttonWrapper {
+  @include flexbox(row, center, center, 0);
+
+  &.fullwidth {
+    width: 100%;
+  }
+
+  button {
+    width: 100%;
+    @include flexbox(row, center, center, 0);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    border-radius: map-get($border, radius);
+    cursor: pointer;
+    background-color: map-get($colors, lightgray);
+    transition: map-get($transition, default);
+
+    &:hover {
+      filter: brightness(90%);
+    }
+
+    &.primary {
+      background-color: map-get($colors, blue);
+    }
+
+    &.success {
+      background-color: map-get($colors, green);
+    }
+
+    &.error {
+      background-color: map-get($colors, red);
+    }
+
+    &.warning {
+      background-color: map-get($colors, yellow);
+    }
+
+    &.tiny {
+      font-size: map-get(map-get($font, sizes), xsmall);
+    }
+    
+    &.small {
+      height: 2rem;
+      font-size: map-get(map-get($font, sizes), small);
+    }
+
+    &.medium {
+      height: 3.4rem;
+      font-size: map-get(map-get($font, sizes), medium);
+    }
+
+    &.large {
+      height: 4rem;
+      font-size: map-get(map-get($font, sizes), large);
+    }
+
+    &.light {
+      color: map-get($colors, purewhite);
+    }
+
+    &.dark {
+      color: map-get($colors, black);
+    }
+
+    &.minimal {
+      background-color: transparent;
+
+      &:hover {
+        filter: brightness(100%);
+      }
+
+      &.primary {
+        color: map-get($colors, blue);
+      }
+
+      &.success {
+        color: map-get($colors, green);
+      }
+
+      &.error {
+        color: map-get($colors, red);
+      }
+
+      &.warning {
+        color: map-get($colors, yellow);
+      }
+
+      &:disabled {
+        color: map-get($colors, midgray);
+        background-color: transparent;
+
+        &:hover {
+          background-color: transparent;
+        }
+      }
+    }
+
+    &:disabled {
+      background-color: map-get($colors, lightgray);
+      filter: brightness(110%);
+      color: map-get($colors, midgray);
+      cursor: not-allowed;
+
+      &:hover {
+        background-color: map-get($colors, lightgray);
+      }
+    }
+  }
+}

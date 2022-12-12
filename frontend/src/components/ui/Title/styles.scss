@@ -1,0 +1,43 @@
+@import '@/sass/master';
+
+.titleWrapper {
+  @include flexbox(column, center, center, map-get($spacings, xsmall));
+
+  &.small {
+    > h3 {
+      font-size: map-get(map-get($font, sizes), medium);
+    }
+
+    > p {
+      font-size: map-get(map-get($font, sizes), xxsmall);
+    }
+  }
+
+  &.medium {
+    > h3 {
+      font-size: map-get(map-get($font, sizes), large);
+    }
+
+    > p {
+      font-size: map-get(map-get($font, sizes), small);
+    }
+  }
+
+  &.large {
+    > h3 {
+      font-size: map-get(map-get($font, sizes), xlarge);
+    }
+
+    > p {
+      font-size: map-get(map-get($font, sizes), medium);
+    }
+  }
+
+  &.light {
+    color: map-get($colors, purewhite);
+  }
+
+  &.dark {
+    color: map-get($colors, black);
+  }
+}

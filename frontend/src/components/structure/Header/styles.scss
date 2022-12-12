@@ -1,0 +1,62 @@
+@import '@/sass/master';
+
+.headerWrapper {
+  background-color: map-get($colors, darkblue);
+  height: 7.5rem;
+  width: 100%;
+  @include flexbox(row, center, space-between, 0);
+  transition: map-get($transition, default);
+
+  &.translucid {
+    background: rgba(201, 201, 201, 0.25);
+    box-shadow: 0 0.3rem 1.5rem -0.5rem map-get($colors, darkestgray);
+
+    .welcomeWrapper {
+      color: map-get($colors, black);
+    }
+  }
+
+  .headerTitleWrapper {
+    width: 100%;
+    @include flexbox(row, center, flex-start, 0);
+  }
+
+  .welcomeWrapper {
+    width: 100%;
+    @include flexbox(column, flex-end, center, 0);
+    font-size: map-get(map-get($font, sizes), medium);
+    color: map-get($colors, purewhite);
+    margin-top: 2rem;
+
+    > div {
+      @include flexbox(row, center, flex-end, map-get($spacings, tiny));
+    }
+  }
+
+  // RESPONSIVE
+  @media (max-width: 1024px) {
+    height: 15rem;
+
+    .welcomeWrapper {
+      font-size: map-get(map-get($font, sizes), large);
+    }
+  }
+
+  @media (max-width: 768px) {
+    height: 20rem;
+    @include flexbox(column, center, center, map-get($spacings, medium));
+
+    h2 {
+      text-align: center;
+    }
+
+    .welcomeWrapper {
+      align-items: center;
+      font-size: map-get(map-get($font, sizes), medium);
+    }
+
+    .headerTitleWrapper {
+      justify-content: center;
+    }
+  }
+}

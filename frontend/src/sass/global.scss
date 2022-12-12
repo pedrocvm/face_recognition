@@ -1,0 +1,35 @@
+@import 'master';
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('//db.onlinewebfonts.com/t/405f05e6bf58471a25729ed060cda2d8.woff2')
+    format('woff2');
+}
+
+@font-face {
+  font-family: 'Glacial Indifference';
+  src: url('//db.onlinewebfonts.com/t/53cc4485c682c9e4acd3a75ccaf51ec0.woff2')
+    format('woff2');
+  font-weight: 600;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+  font-size: 62.5%;
+}
+
+body {
+  height: 100%;
+  font-family: 'Glacial Indifference';
+  font-size: map-get(map-get($font, sizes), medium);
+}
+
+.el-button--primary {
+  background-color: map-get($colors, primary)!important;
+}

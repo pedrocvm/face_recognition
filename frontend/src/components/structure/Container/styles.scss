@@ -1,0 +1,7 @@
+@import '@/sass/master';
+
+.containerWrapper {
+  > div {
+    padding: 0 15%;
+  }
+}

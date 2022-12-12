@@ -1,0 +1,22 @@
+@import '@/sass/master';
+
+.uploadsTableWrapper,
+.userListWrapper {
+  width: 100%;
+  max-width: 850px;
+
+  .searchWrapper {
+    width: 300px;
+    margin-bottom: map-get($spacings, xxsmall);
+    float: right;
+  }
+
+  .tableWrapper {
+    margin: 0 auto;
+
+    .el-pagination {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import '@/sass/master';
+
+.uploadFormWrapper {
+  .fileInputWrapper {
+    @include flexbox(column, center, center, map-get($spacings, xsmall));
+  }
+
+  .imageThumbnailWrapper {
+    width: 80%;
+    max-width: 80rem;
+    margin: map-get($spacings, xxsmall) auto 0 auto;
+    @include flexbox(column, center, center, map-get($spacings, xxsmall));
+
+    > img {
+      height: 10rem;
+      object-fit: cover;
+    }
+  }
+
+  .actionWrapper {
+    width: 80%;
+    max-width: 80rem;
+    margin: 0 auto;
+  }
+}

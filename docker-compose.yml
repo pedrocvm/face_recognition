@@ -1,0 +1,25 @@
+version: "3.3"
+
+services:
+  mongodb:
+    image: mongo
+    container_name: face_detection_mongodb
+    restart: unless-stopped
+    ports:
+      - 27017:27017
+
+  api:
+    build: ./backend
+    container_name: face_detection_api
+    ports:
+      - 3345:3345
+    depends_on:
+      - mongodb
+    environment:
+      - MONGO_URI=mongodb://mongodb/face_detection_mongodb
+
+  client:
+    build: ./frontend
+    container_name: face_detection_client
+    ports:
+      - 8080:8080

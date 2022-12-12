@@ -1,0 +1,40 @@
+@import '@/sass/master';
+
+.uploadFieldWrapper {
+  label {
+    display: block;
+    width: 80%;
+    max-width: 80rem;
+    margin: map-get($spacings, xsmall) auto;
+    background: map-get($colors, purewhite);
+    border-radius: map-get($border, radius-2x);
+    border: 0.5rem dashed map-get($colors, lightgray);
+    text-align: center;
+    padding: map-get($spacings, xsmall);
+    color: map-get($colors, lightgray);
+    font-size: map-get(map-get($font, sizes), xxlarge);
+    transition: map-get($transition, fast);
+    cursor: pointer;
+
+    &.disabled {
+      cursor: not-allowed;
+      border-color: map-get($colors, lightgray);
+      color: map-get($colors, lightgray);
+
+      &:hover {
+        border-color: map-get($colors, lightgray);
+        color: map-get($colors, lightgray);
+      }
+    }
+
+    &:hover {
+      border-color: map-get($colors, blue);
+      color: map-get($colors, blue);
+    }
+
+    input {
+      width: 0;
+      height: 0;
+    }
+  }
+}

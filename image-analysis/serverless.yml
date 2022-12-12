@@ -1,0 +1,35 @@
+org: pedrocvm
+app: image-analysis
+service: image-analysis
+frameworkVersion: '3'
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  region: eu-west-1
+  iam:
+    role:
+      statements:
+      - Effect: Allow
+        Action:
+          - rekognition:DetectFaces
+        Resource: "*"
+
+functions:
+  img-analysis:
+    handler: src/index.main
+    events:
+      - httpApi:
+          path: /analyse
+          method: get
+
+plugins:
+  - serverless-plugin-typescript
+  - serverless-offline
+
+custom:
+  serverlessPluginTypescript:
+    tsConfigFileLocation: './tsconfig.build.json'
+  serverless-offline:
+    lambdaPort: 3003
+    httpPort: 4000

@@ -1,0 +1,20 @@
+<template>
+  <div class='{{camelCase name}}Wrapper'>
+    <h1>{{pascalCase name}}</h1>
+  </div>
+</template>
+
+<script lang="ts">
+import Vue from 'vue';
+
+export default Vue.extend({
+  name: '{{pascalCase name}}',
+  data(){
+    return {}
+  }
+});
+</script>
+
+<style lang="scss">
+@import './styles';
+</style>

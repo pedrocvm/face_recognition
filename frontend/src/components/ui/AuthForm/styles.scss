@@ -1,0 +1,17 @@
+@import '@/sass/master';
+
+.authFormWrapper{
+  width: 100%;
+
+  .formFieldsWrapper {
+    width: 100%;
+    margin: 0 auto;
+    @include flexbox(column, center, center, map-get($spacings, xsmall));
+  }
+
+  .actionWrapper {
+    width: 100%;
+    margin-top: map-get($spacings, small);
+    @include flexbox(column, center, center, map-get($spacings, xxsmall));
+  }
+}

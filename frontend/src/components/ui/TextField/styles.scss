@@ -1,0 +1,53 @@
+@import '@/sass/master';
+
+.textFieldWrapper {
+  position: relative;
+  min-height: 3.5rem;
+  width: 100%;
+
+  input {
+    width: 100%;
+    padding: 
+      map-get($spacings, xxsmall) 
+      3.7rem 
+      map-get($spacings, xxsmall)
+      map-get($spacings, xxsmall);
+    border: 0.1rem solid map-get($colors, gray);
+    transition: map-get($transition, default);
+    border-radius: map-get($border, radius );
+
+    &:focus {
+      outline: none;
+      box-shadow: none;
+    }
+
+    &::placeholder {
+      color: map-get($colors, gray);
+      font-size: map-get(map-get($font, sizes), xxsmall);
+    }
+  }
+
+  .iconWrapper {
+    height: 100%;
+    background: none;
+    width: 3rem;
+    @include flexbox(row, center, center, 0);
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+
+    > img {
+      width: 1.5rem;
+      height: 1.5rem;
+      object-fit: contain;
+    }
+
+    &.showPasswordWrapper{
+      background: none;
+      height: auto;
+      top: 57%;
+      padding-right: map-get($spacings , tiny );
+    }
+  }
+}

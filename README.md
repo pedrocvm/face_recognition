@@ -127,7 +127,7 @@ Project started on 30/11/2022.
 ### :triangular_ruler: **Status**
 
 <h4 align="center"> 
-	👨‍🏫 Weather App v1.0 done!
+	👨‍🏫 Face Recognition App v1.0 done!
 </h4>
 
 ---
